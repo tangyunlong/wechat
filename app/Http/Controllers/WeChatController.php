@@ -6,7 +6,7 @@ use EasyWeChat\Factory;
 use App\Http\Controllers\Controller;
 class WeChatController extends Controller
 {
-	public function index(http_get(wechatide://minicode/ZHrWZqm66cZy)
+	public function index()
 	{
 		$config = [
 		    'app_id' => 'wx98e518caccc01d1d',
