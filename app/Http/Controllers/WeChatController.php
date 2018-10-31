@@ -23,7 +23,7 @@ class WeChatController extends Controller
 		];
 		$app = Factory::miniProgram($config);
 		$session = $app->auth->session("023esgYq1F5Wqo0sWYUq1crvYq1esgYT");
-		// $decryptedData = $app->encryptor->decryptData($session, "4y9zLgo2+Vyc0E/CS033Rw==", "S+tys6mCC9nTprQO415/iQZWxdGogKBeZfdWHlDsWVZ7SEIHRmf/AC2DWIVadXP0DI4SZO6X8KBInzOv+5UXV6VVvyBY+xAbROgyzeUSlppZahuPuAHyr82iz5o7fFB69wgJQc5Qs5gdC30RHZzRiTI7osq9Uql3X0G4H0duzZDH4+FwEcLdtVYGORCC+Ejmb6AguO5qdS4fmDqp7ljUj+GO0TUxQq4ikw1657hlcop4kDNZKP8t/d67wSzsZf7pAqBsR+C7ir3vdB+n0sX9yeR9KqO7mBSj7BZi5uoznNpx0mizuSjtsDXbEECVIUREG9cv2K0d5OmBz5+xTf5heDuz3SCEGlz9s6UO2titd4vlgz87XY0kl/rr/BodJJ2Fvf/Cxc7Q5cVQJ75r/fmoib9UvBL2PbZSCyiB9CHVry14A2MHePL7HVFD5omscofNZRTUCnJHNMK01aCbuCrZS6HO/viDjlRMvx/Crgx8gLM=");
+		$decryptedData = $app->encryptor->decryptData($session, "affqG1rRftc56QR56/MRBg==", "dhuykHzDIQAj7Wt2YaL+X5B/xleOQ1WSt8nfXs6rS8x0HXlbESfb2iL1LpUQTudtohMzlOtZ9AHaR4saarkWAyZzQMLmDNkHHI94q46+VBjnaH2UB1+XMb4S5ZIp6rN39XRuO3u+AvUk/FiEPWoNNT7fQZqswvcgKBq+Jyi5xoD9r/6SLicNFpyhxIIfAOnIFmeJ3nc6fM8Nra5acerPaN5iFN/MYd6YGeDr7fZiDwUxZOC5GL2VaQEII3N9KslL64T0xsnOxlNSxzq9jtuq5qBgsGjeZotYF/zx+E3uwJKjW5SP8W1O+wq/olILNXZ5bQ/lDb913g+fhJi7Hd7WNgYNbntdF1zdx/EWanT+MqDovC4IgYdg47Vsxde17C9PSoLqhoha+7rSyYBeRgEmE2dtqaKXMcGZ/wTPDBmyt2ew+e+v3RFSf2zT83+A8TutiCJCp5R80ThjutOx8N1U3SrdI9kqrZ0F/Thxnq3ekBc=");
 		return $session;
 		 // var_dump($session);exit;
 
